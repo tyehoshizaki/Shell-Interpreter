@@ -1,0 +1,7 @@
+cd
+ls
+ping
+exit
+clear
+history
+clear_history
