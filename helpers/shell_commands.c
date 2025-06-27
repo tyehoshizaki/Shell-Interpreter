@@ -82,3 +82,86 @@ void print_history()
         }
     }
 }
+
+char **builtins = NULL;
+size_t builtins_count = 0;
+
+void init_builtins(int flag) {
+
+    if(flag){
+        char *source = "/bin";
+        DIR *d = opendir(source);
+        if (!d) return;
+        struct dirent *entry;
+        while ((entry = readdir(d))) {
+            if (entry->d_name[0] == '.') continue;
+            char path[PATH_MAX];
+            snprintf(path, sizeof path, "%s/%s", source, entry->d_name);
+            struct stat st2;
+            if (stat(path, &st2) == 0
+             && S_ISREG(st2.st_mode)
+             && (st2.st_mode & S_IXUSR)) 
+            {
+                builtins = realloc(builtins, (builtins_count + 2) * sizeof *builtins);
+                builtins[builtins_count++] = strdup(entry->d_name);
+            }
+        }
+        closedir(d);
+    }else{
+        FILE* file = fopen(FILENAME, "r");
+        if (!file){
+            perror("fopen");
+            return;
+        } 
+
+        char *line = NULL;
+        size_t n = 0;
+        ssize_t nread;
+
+        while((nread = getline(&line, &n, file)) != -1){
+            line[strcspn(line,"\r\n")] = '\0';
+            if(*line == '\0') continue;
+            builtins = realloc(builtins, (builtins_count + 2) * sizeof(builtins));
+            builtins[builtins_count++] = strdup(line);
+        }
+        free(line);
+        fclose(file);
+    }
+
+    if (builtins)
+        builtins[builtins_count] = NULL;
+}
+
+void free_builtins(void) {
+    for (size_t i = 0; i < builtins_count; i++)
+        free(builtins[i]);
+    free(builtins);
+    builtins = NULL;
+    builtins_count = 0;
+}
+
+
+char *commandgenerator(const char *text, int state){
+
+    int idx, len;
+    const char *name;
+
+
+    if(state == 0){
+        idx = 0;
+        len = strlen(text);
+    }
+
+    while((idx < builtins_count)){
+        name = builtins[idx++];
+        if (strncmp(name, text, len) == 0)
+        return strdup(name);
+    }
+
+    return rl_filename_completion_function(text, state);
+}
+
+char **ssi_completion_func(const char *word, int start, int end){
+    rl_attempted_completion_over = 1;
+    return rl_completion_matches(word, commandgenerator);
+}
