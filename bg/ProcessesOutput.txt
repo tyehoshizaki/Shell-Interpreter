@@ -1,0 +1,120 @@
+PING google.com (2607:f8b0:400a:800::200e) 56 data bytes
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=1 ttl=119 time=8.64 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=2 ttl=119 time=7.45 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=3 ttl=119 time=7.89 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=4 ttl=119 time=7.93 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=5 ttl=119 time=7.92 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=6 ttl=119 time=7.93 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=7 ttl=119 time=7.43 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=8 ttl=119 time=7.40 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=9 ttl=119 time=7.43 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=10 ttl=119 time=8.43 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=11 ttl=119 time=7.90 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=12 ttl=119 time=7.91 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=13 ttl=119 time=7.91 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=14 ttl=119 time=7.91 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=15 ttl=119 time=7.39 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=16 ttl=119 time=7.93 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=17 ttl=119 time=7.43 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=18 ttl=119 time=7.91 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=19 ttl=119 time=7.95 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=20 ttl=119 time=7.39 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=21 ttl=119 time=7.44 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=22 ttl=119 time=8.42 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=23 ttl=119 time=7.42 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=24 ttl=119 time=7.93 ms
+64 bytes from sea15s07-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=25 ttl=119 time=7.92 ms
+
+--- google.com ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 24037ms
+rtt min/avg/max/mdev = 7.387/7.806/8.642/0.345 ms
+PING google.com (2607:f8b0:400a:800::200e) 56 data bytes
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=1 ttl=119 time=7.50 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=2 ttl=119 time=8.26 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=3 ttl=119 time=7.36 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=4 ttl=119 time=8.05 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=5 ttl=119 time=7.42 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=6 ttl=119 time=7.44 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=7 ttl=119 time=7.40 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=8 ttl=119 time=7.40 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=9 ttl=119 time=7.93 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=10 ttl=119 time=7.38 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=11 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=12 ttl=119 time=7.92 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=13 ttl=119 time=8.45 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=14 ttl=119 time=7.38 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=15 ttl=119 time=7.40 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=16 ttl=119 time=7.42 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=17 ttl=119 time=7.42 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=18 ttl=119 time=7.41 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=19 ttl=119 time=7.43 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=20 ttl=119 time=7.40 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=21 ttl=119 time=7.92 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=22 ttl=119 time=7.92 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=23 ttl=119 time=7.93 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=24 ttl=119 time=7.41 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=25 ttl=119 time=7.92 ms
+
+--- google.com ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 24020ms
+rtt min/avg/max/mdev = 7.364/7.636/8.445/0.316 ms
+PING google.com (2607:f8b0:400a:800::200e) 56 data bytes
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=1 ttl=119 time=8.02 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=2 ttl=119 time=8.02 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=3 ttl=119 time=7.45 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=4 ttl=119 time=7.43 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=5 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=6 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=7 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=8 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=9 ttl=119 time=7.49 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=10 ttl=119 time=7.94 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=11 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=12 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=13 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=14 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=15 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=16 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=17 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=18 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=19 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=20 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=21 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=22 ttl=119 time=7.45 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=23 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=24 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=25 ttl=119 time=7.96 ms
+
+--- google.com ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 24039ms
+rtt min/avg/max/mdev = 7.432/7.765/8.021/0.249 ms
+PING google.com (2607:f8b0:400a:800::200e) 56 data bytes
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=1 ttl=119 time=7.36 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=2 ttl=119 time=8.21 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=3 ttl=119 time=7.43 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=4 ttl=119 time=7.44 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=5 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=6 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=7 ttl=119 time=7.43 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=8 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=9 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=10 ttl=119 time=9.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=11 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=12 ttl=119 time=8.44 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=13 ttl=119 time=7.45 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=14 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=15 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=16 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=17 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=18 ttl=119 time=7.96 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=19 ttl=119 time=7.97 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=20 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=21 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=22 ttl=119 time=7.47 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=23 ttl=119 time=7.46 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=24 ttl=119 time=7.95 ms
+64 bytes from sea09s35-in-x0e.1e100.net (2607:f8b0:400a:800::200e): icmp_seq=25 ttl=119 time=7.45 ms
+
+--- google.com ping statistics ---
+25 packets transmitted, 25 received, 0% packet loss, time 24039ms
+rtt min/avg/max/mdev = 7.358/7.801/9.958/0.532 ms
